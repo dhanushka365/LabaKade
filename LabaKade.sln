@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{33E54874-A617-401E-A7EB-A24F498E6966}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{B0FC0DBE-7B59-46BE-8A54-14FA933F6B28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{678DDCC1-9F38-4491-8D4B-F9ADDBE4C1EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{50B9836C-4B98-43EF-A498-E99C24C2D327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabaKade.Services.CouponAPI", "LabaKade.Services.CouponAPI\LabaKade.Services.CouponAPI.csproj", "{C5E29863-51AF-4A24-B5E2-FBC389FEE24C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5E29863-51AF-4A24-B5E2-FBC389FEE24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E29863-51AF-4A24-B5E2-FBC389FEE24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E29863-51AF-4A24-B5E2-FBC389FEE24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E29863-51AF-4A24-B5E2-FBC389FEE24C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5E29863-51AF-4A24-B5E2-FBC389FEE24C} = {50B9836C-4B98-43EF-A498-E99C24C2D327}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4621A386-AD0A-436F-B11D-723B78644295}
+	EndGlobalSection
+EndGlobal
