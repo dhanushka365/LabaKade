@@ -30,5 +30,21 @@ namespace LabaKade.Services.CouponAPI.Controllers
             }
             return null;
         }
+
+        [HttpGet]
+        [Route("{id:int}")] // differentiate the both get requests
+        public object Get(int id)
+        {
+            try
+            {
+                Coupon objList = _db.Coupons.First(u=>u.CouponId==id);
+                return objList;
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return null;
+        }
     }
 }
